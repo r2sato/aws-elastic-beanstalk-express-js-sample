@@ -2,7 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws deploy push --application-name codedeploy --source aws-elastic-beanstalk-express-js-sample
+      - aws deploy push --application-name codedeploy --s3-location s3://pipelinetopractice/Handson/buildspec.yml --source aws-elastic-beanstalk-express-js-sample
 artifacts:
   files:
     - '**/*'
