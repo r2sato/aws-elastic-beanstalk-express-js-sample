@@ -6,4 +6,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-derectory:aws-elastic-beanstalk-express-js-sample
+  base-derectory: aws-elastic-beanstalk-express-js-sample
